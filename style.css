@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(34, 32, 43);
+}
+
 header {
   height: 10em;
   position: relative;
@@ -13,6 +21,20 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 50px;
+  color: rgb(203, 203, 248);
+}
+
+h3,
+p,
+li {
+  color: #fff;
+}
+
+h5 {
+  color: rgb(118, 210, 247);
+}
+.nav-item {
+  font-weight: bold;
 }
 
 .container-text {
